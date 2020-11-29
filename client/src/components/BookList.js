@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Button from '../Button';
-import API from '../../utils/API';
+import Button from '../Buttons';
+import API from '../utils/API';
 import CheckMark from '../../pages/CheckMark';
 import './style.css';
 import {
