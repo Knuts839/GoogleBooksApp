@@ -3,7 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 
 import Nav       from './components/Nav';
-import Bookshelf from './pages/xBookshelf';
+import Bookshelf from './pages/Bookshelf';
 import Search    from './pages/Search'; 
 import NoMatch   from './pages/NoMatch';
 
