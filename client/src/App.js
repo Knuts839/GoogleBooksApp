@@ -17,7 +17,7 @@ class App extends Component {
         <Router>
           <Switch>
             <Route exact path="/" component={Search} />
-            <Route exact path="/bookshelf" component={Bookshelf} />
+            <Route exact path="./bookshelf" component={Bookshelf} />
             <Route component={NoMatch} />
           </Switch>
         </Router>
