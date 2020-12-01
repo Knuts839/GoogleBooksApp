@@ -1,5 +1,6 @@
+// eslint-disable-next-line
 import React, { Component } from "react";
-import Button from '../Buttons';
+import Button from '../Button';
 import API from '../../utils/API';
 import CheckMark from '../../pages/CheckMark';
 import './style.css';

@@ -1,6 +1,8 @@
-
 import axios from "axios"; 
-export default {   
+
+export default {
+    
+    //Gets all the books in the collection.
     getBooks : function() {
         return axios.get("/api/books");
     },
