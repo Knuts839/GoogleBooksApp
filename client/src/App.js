@@ -3,7 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 
 import Nav       from './components/Nav';
-import Bookshelf from './pages/Bookshelf';
+import Bookshelf from './pages/xBookshelf';
 import Search    from './pages/Search'; 
 import NoMatch   from './pages/NoMatch';
 
@@ -17,7 +17,7 @@ class App extends Component {
         <Router>
           <Switch>
             <Route exact path="/" component={Search} />
-            <Route exact path="./bookshelf" component={Bookshelf} />
+            <Route exact path="/bookshelf" component={Bookshelf} />
             <Route component={NoMatch} />
           </Switch>
         </Router>
